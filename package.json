@@ -1,6 +1,6 @@
 {
   "name": "lorikeet-logger",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A logger which unpacks and colors the output.",
   "type": "commonjs",
   "types": "./dist/index.d.ts",
@@ -53,6 +53,7 @@
   },
   "homepage": "https://github.com/whatar/lorikeet-logger#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "util": "^0.12.4"
   },
   "devDependencies": {
