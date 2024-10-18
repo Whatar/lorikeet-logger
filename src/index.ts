@@ -71,7 +71,7 @@ const print = (emoji: string, messageArray: string[]): void => {
   }
 
   console.log(
-    (process.env.LORIKEET_EMOJI === 'true' ? emoji + ' ' : '') +
+    (process.env.LORIKEET_EMOJI === 'true' && emoji != '' ? emoji + ' ' : '') +
       messageArray.join(process.env.LORIKEET_SEPARATOR) +
       Color.RESET
   );
